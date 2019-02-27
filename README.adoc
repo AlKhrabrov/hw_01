@@ -16,21 +16,26 @@
 
 . Скачать с http://cygwin.com/install.html[сайта Cygwin] дистрибутив, подходящий к установленной версии Windows.
 . Запустить скачаный файл (`setupx84_64.exe` или типа того).
-. На экране приветствия нажать «Next».
-. На экране «Choose A Download Source» выбрать «Install from Internet» и нажать «Next».
-. На экране «Select Root Install Directory» нужно оставить предложенное значение для «Root Directory» и выбрать установку для всех пользователей «All Users». Нажать «Next».
-. На экране «Select Local Package Directory» ничего не трогать. Нажать «Next».
-. На экране «Select Your Internet Connection» оставить «Direct Connection». Нажать «Next».
+. На экране приветствия нажать «Далее».
+. На экране «Choose A Download Source» выбрать «Install from Internet» и нажать «Далее».
+. На экране «Select Root Install Directory» нужно оставить предложенное значение для «Root Directory» и выбрать установку для всех пользователей «All Users». Нажать «Далее».
+. На экране «Select Local Package Directory» ничего не трогать. Нажать «Далее».
+. На экране «Select Your Internet Connection» выбрать «Direct Connection». Нажать «Далее».
 . (Действие не требуется) Cygwin загрузит список доступных зеркал (то есть серверов на которых хранится программное обеспечение Cygwin).
-. На экране «Choose A Download Site» нужно выбрать какой-нибудь сайт и нажать «Next».
+. На экране «Choose A Download Site» нужно выбрать какой-нибудь сайт и нажать «Далее».
 . (Действие не требуется) Cygwin загрузит список доступного программного обеспечения.
-. Теперь ты попал на экран «Select Packages». Нажми кнопку «View» в верхнем правом углу, чтобы было написано «Full» вместо «Category». Больше ничего не трогать.
-. Для каждого перечисленного ниже пакета нажми на надпись «Skip», чтоб выбрать этот пакет для установки. При нажатии на «Skip» надпись должна превращаться в номер версии пакета, типа `2.1.4-1`. Возможно некоторые пакеты уже будут выбраны для установки, тогда нажимать ничего не надо.
-.. bash: THE GNU Bourne Again SHell
-.. git: Distributed version control system
-.. git-completion: Bash completion for Git version control system
-. Нажми «Next» для проверки списка установки.
-. На экране «Resolving Dependencies» удостоверься, что выбран пункт «Select required packages» и нажми «Next».
+. Теперь ты попал на экран «Select Packages». Выбери из выпадающего списка «View» в верхнем левом углу «Full» вместо «Category». Больше ничего не трогать.
+. Для каждого перечисленных ниже пакетов нажми на надпись «Skip», чтоб выбрать этот пакет для установки. Поиск пакета удобно осуществлять с помощью строки поиска «Search». При нажатии на «Skip» надпись должна превращаться в номер версии пакета, типа `2.1.4-1`. Возможно некоторые пакеты уже будут выбраны для установки, тогда нажимать ничего не надо.
++
+[cols="1,3"]
+|===
+|Пакет | Описание
+|bash | THE GNU Bourne Again SHell
+|git | Distributed version control system
+|openssh| The OpenSSH server and client programs|
+|===
+. Нажми «Далее» для проверки списка установки.
+. На экране «Resolving Dependencies» удостоверься, что выбран пункт «Select required packages» и нажми «Далее».
 . (Действие не требуется) Cygwin установит все выбранные пакеты.
 . На экране «Create Icons» лучше выбрать оба пункта «Desktop icons» и «Start Menu icons», чтобы было легче отыскать «Cygwin Terminal». Нажми «Finish» для завершения.
 
